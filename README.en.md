@@ -15,31 +15,65 @@
   <a href="https://github.com/covebrowser-bit/CoveBrowser/stargazers"><img src="https://img.shields.io/github/stars/covebrowser-bit/CoveBrowser?style=flat" alt="Stars"></a>
 </p>
 
-Desktop client for sellers, agencies, and **business teams ¡ª free for individuals and enterprises**. Isolate each **Amazon / Shopify / Shopee / TikTok Shop** storefront, bind regional proxies, warm accounts, and sync windows for bulk ops ¡ª without seat-based lock-in to get started.
-
 **Free download** ¡ú [covebrowser.com](https://covebrowser.com/) (Windows ¡¤ macOS)£üCurrent **v0.1.14**
 
 </div>
-
-<p align="center">
-  <img src="docs/assets/website-hero.png" width="900" alt="Cove Browser website and environment manager for ecommerce" />
-</p>
 
 ---
 
 ## Contents
 
-- [Detection sites](#detection-sites)
+- [Product](#product)
+- [Detection results](#detection-results)
 - [Use cases](#use-cases)
-- [Features](#features)
-- [Screenshots](#screenshots)
 - [Get started](#get-started)
 - [Contact](#contact)
 - [Star History](#star-history)
 
 ---
 
-## Detection sites
+## Product
+
+Cove Browser is a desktop fingerprint browser for sellers, agencies, and business teams ¡ª **free for individuals and enterprises**. Isolate each **Amazon / Shopify / Shopee / TikTok Shop** storefront, bind regional proxies, warm accounts, and sync windows for bulk ops, reducing store linking and team account bleed.
+
+<p align="center">
+  <img src="docs/assets/website-hero.png" width="900" alt="Cove Browser website and environment manager for ecommerce" />
+</p>
+
+### Core capabilities
+
+| Feature | Notes |
+|---|---|
+| Multi-account environments | Isolated fingerprint, cookies, storage, proxy |
+| Batch ops | Create, import, start, stop, recycle bin |
+| Groups & tags | By project / client / owner |
+| Window sync | Mouse, keyboard, scroll across windows |
+| Local API | Localhost JSON API; CDP after launch |
+| Team collaboration | Members, roles, permissions |
+| Proxies | HTTP / HTTPS / SOCKS5 with checks |
+
+### Screenshots
+
+Desktop UI (v0.1.x).
+
+<p align="center">
+  <img src="docs/assets/profiles.png" width="900" alt="Cove Browser multi-store environment manager" />
+</p>
+<p align="center"><em>Environment manager: fingerprint, proxy, groups, and notes per store</em></p>
+
+<p align="center">
+  <img src="docs/assets/fingerprint.png" width="900" alt="Cove Browser Canvas WebGL Audio fingerprint settings" />
+</p>
+<p align="center"><em>Fingerprint settings: Canvas / WebGL / Audio / hardware isolated per profile</em></p>
+
+<p align="center">
+  <img src="docs/assets/launch.png" width="720" alt="Cove Browser environment launch progress" />
+</p>
+<p align="center"><em>Launch progress: open an independent browser window when ready</em></p>
+
+---
+
+## Detection results
 
 Profiles present as **Chrome** (UA / Client Hints). Public third-party samples ¡ª retest yourself.
 
@@ -118,44 +152,6 @@ Group by client ¡Á store, assign visibility and roles, hand off without rebuildi
 ### Local automation and batch jobs
 
 Enable the local API inside an environment; after launch you get CDP for repricing, scraping, or listing scripts.
-
----
-
-## Features
-
-| Feature | Notes |
-|---|---|
-| Multi-account environments | Isolated fingerprint, cookies, storage, proxy |
-| Batch ops | Create, import, start, stop, recycle bin |
-| Groups & tags | By project / client / owner |
-| Window sync | Mouse, keyboard, scroll across windows |
-| Local API | Localhost JSON API; CDP after launch |
-| Team collaboration | Members, roles, permissions |
-| Proxies | HTTP / HTTPS / SOCKS5 with checks |
-
----
-
-## Screenshots
-
-Desktop UI (v0.1.x).
-
-### Environment manager
-
-<p align="center">
-  <img src="docs/assets/profiles.png" width="900" alt="Cove Browser multi-store environment manager" />
-</p>
-
-### Fingerprint settings
-
-<p align="center">
-  <img src="docs/assets/fingerprint.png" width="900" alt="Cove Browser Canvas WebGL Audio fingerprint settings" />
-</p>
-
-### Launch progress
-
-<p align="center">
-  <img src="docs/assets/launch.png" width="720" alt="Cove Browser environment launch progress" />
-</p>
 
 ---
 

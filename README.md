@@ -15,30 +15,65 @@
   <a href="https://github.com/covebrowser-bit/CoveBrowser/stargazers"><img src="https://img.shields.io/github/stars/covebrowser-bit/CoveBrowser?style=flat" alt="Stars"></a>
 </p>
 
-面向跨境卖家、代运营与企业团队的桌面客户端——**个人与企业均可免费使用**。为 **Amazon / Shopify / Shopee / TikTok Shop** 等平台的每个店铺建立独立环境，绑定地区代理，支持开店养号与窗口同步批量操作，降低店铺关联与团队串号风险。
-
 **免费下载** → [covebrowser.com](https://covebrowser.com/)（Windows · macOS）｜当前版本 **v0.1.14**
-</div>
 
-<p align="center">
-  <img src="docs/assets/website-hero.png" width="900" alt="Cove Browser 跨境电商指纹浏览器官网与环境管理界面" />
-</p>
+</div>
 
 ---
 
 ## 目录
 
-- [检测通过的网站](#检测通过的网站)
+- [产品介绍](#产品介绍)
+- [各网站检测结果](#各网站检测结果)
 - [应用场景](#应用场景)
-- [功能说明](#功能说明)
-- [软件截图](#软件截图)
 - [快速上手](#快速上手)
 - [联系我们](#联系我们)
 - [Star History](#star-history)
 
 ---
 
-## 检测通过的网站
+## 产品介绍
+
+Cove Browser 是面向跨境卖家、代运营与企业团队的桌面指纹浏览器——**个人与企业均可免费使用**。为 **Amazon / Shopify / Shopee / TikTok Shop** 等平台的每个店铺建立独立环境，绑定地区代理，支持开店养号与窗口同步批量操作，降低店铺关联与团队串号风险。
+
+<p align="center">
+  <img src="docs/assets/website-hero.png" width="900" alt="Cove Browser 跨境电商指纹浏览器官网与环境管理界面" />
+</p>
+
+### 核心能力
+
+| 功能 | 说明 |
+|---|---|
+| 多账号环境 | 每环境独立指纹、Cookie、存储、代理 |
+| 批量管理 | 创建、导入、启动、停止、回收站 |
+| 分组与标签 | 按项目、客户、负责人整理 |
+| 窗口同步 | 鼠标、键盘、滚动同步到多窗口 |
+| 本地 API | 本机 JSON API，启动后返回 CDP |
+| 团队协作 | 成员、角色、权限、环境分配 |
+| 代理管理 | HTTP / HTTPS / SOCKS5，检测并绑定环境 |
+
+### 软件截图
+
+桌面客户端界面（v0.1.x）。
+
+<p align="center">
+  <img src="docs/assets/profiles.png" width="900" alt="Cove Browser 多店铺环境管理界面" />
+</p>
+<p align="center"><em>环境管理：每个店铺独立指纹、代理、分组与备注</em></p>
+
+<p align="center">
+  <img src="docs/assets/fingerprint.png" width="900" alt="Cove Browser Canvas WebGL Audio 指纹配置" />
+</p>
+<p align="center"><em>指纹配置：Canvas / WebGL / Audio / 硬件与系统参数按环境隔离</em></p>
+
+<p align="center">
+  <img src="docs/assets/launch.png" width="720" alt="Cove Browser 环境启动进度" />
+</p>
+<p align="center"><em>启动环境：内核与代理就绪后进入独立浏览器窗口</em></p>
+
+---
+
+## 各网站检测结果
 
 内核按 **Chrome** 身份呈现（UA / Client Hints）。以下为公开第三方检测站实测示例，可自行复测。
 
@@ -117,44 +152,6 @@ Facebook、Instagram、TikTok、YouTube、WhatsApp、邮件工具等矩阵账号各自隔离，发布
 ### 本地自动化与批量任务
 
 开启本机 API，在指定环境内对接改价、采集、上架脚本；启动后可返回 CDP，把隔离环境与自动化接在同一链路。
-
----
-
-## 功能说明
-
-| 功能 | 说明 |
-|---|---|
-| 多账号环境 | 每环境独立指纹、Cookie、存储、代理 |
-| 批量管理 | 创建、导入、启动、停止、回收站 |
-| 分组与标签 | 按项目、客户、负责人整理 |
-| 窗口同步 | 鼠标、键盘、滚动同步到多窗口 |
-| 本地 API | 本机 JSON API，启动后返回 CDP |
-| 团队协作 | 成员、角色、权限、环境分配 |
-| 代理管理 | HTTP / HTTPS / SOCKS5，检测并绑定环境 |
-
----
-
-## 软件截图
-
-桌面客户端界面（v0.1.x）。
-
-### 环境管理
-
-<p align="center">
-  <img src="docs/assets/profiles.png" width="900" alt="Cove Browser 多店铺环境管理界面" />
-</p>
-
-### 指纹配置
-
-<p align="center">
-  <img src="docs/assets/fingerprint.png" width="900" alt="Cove Browser Canvas WebGL Audio 指纹配置" />
-</p>
-
-### 启动环境
-
-<p align="center">
-  <img src="docs/assets/launch.png" width="720" alt="Cove Browser 环境启动进度" />
-</p>
 
 ---
 
