@@ -12,7 +12,6 @@ A desktop client for everyday users and teams: create environments, bind proxies
 
 - Download: [covebrowser.com](https://covebrowser.com/) (Windows ¡¤ macOS)
 - Current client: **Cove Browser v0.1.14**
-- This repository is **product docs & screenshots only** ¡ª no kernel or client source
 
 </div>
 

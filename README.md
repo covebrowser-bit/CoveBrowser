@@ -12,7 +12,6 @@
 
 - 官网下载：[covebrowser.com](https://covebrowser.com/)（Windows · macOS）
 - 当前客户端：**Cove Browser v0.1.14**
-- 本仓库是**产品说明与截图**，不包含内核与客户端源码
 
 </div>
 
