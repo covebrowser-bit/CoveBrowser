@@ -33,7 +33,7 @@ Window sync for bulk ops across marketplaces, warm-up, and ads
 
 | Free to start | Strong isolation | Higher throughput |
 |:---:|:---:|:---:|
-| Free download ¡ª sign up and go | Fingerprint ¡¤ cookies ¡¤ proxy per store | Window sync + local API / CDP |
+| Download, sign up, start working | Fingerprint ¡¤ cookies ¡¤ proxy per store | Window sync + local API / CDP |
 
 ---
 
@@ -49,23 +49,23 @@ Window sync for bulk ops across marketplaces, warm-up, and ads
 
 ## Platform
 
-Cove Browser is a **free fingerprint browser platform** for cross-border sellers, agencies, and ops teams.  
-For Amazon, Shopify, Shopee, TikTok Shop and more, each storefront becomes an isolated runtime ¡ª fingerprint, cookies, storage, and proxy egress stay separate ¡ª with account warm-up, window sync, and local automation to reduce store linking and team account bleed.
+Cove Browser is built for cross-border sellers, agencies, and ops teams ¡ª turning every **Amazon / Shopify / Shopee / TikTok Shop** storefront into an independent browser environment.
+
+Fingerprint, cookies, local storage, and proxy egress stay separated, with warm-up, window sync, and local automation. The outcome is simple: **fewer linked stores, less account bleed, stable multi-store ops**.
 
 ### Why we built a free platform
 
-What sellers actually need is **store isolation, reliable browsers, and team collaboration**. Many commercial fingerprint browsers lock those basics behind expensive plans ¡ª billed by environments, seats, or windows. More stores and more teammates mean the bill scales up fast.
+Multi-store teams need three things: reliable isolation, stable browsers, and collaboration that scales.  
+Many commercial fingerprint browsers lock those basics into expensive plans ¡ª billed by environments, seats, or windows. As stores and teammates grow, tool cost rises faster than the business.
 
-What that usually looks like:
-
-| Reality | Cost |
+| Market reality | Business impact |
 |---|---|
-| **Billed by environment / seat** | A few more stores or teammates and the monthly fee jumps |
-| **Features gated by plan** | Window sync, team roles, and API often sit in paid tiers |
-| **Tool cost outruns value** | Solo sellers and studios spend on the browser instead of ads and inventory |
-| **Risk remains** | Paying more still doesn¡¯t remove store linking, cookie bleed, or proxy mismatch |
+| **Billed by environment / seat** | Expanding stores or headcount pushes monthly fees up |
+| **Core features gated by plan** | Sync, permissions, and API often sit behind paid tiers |
+| **Tool spend crowds out growth** | Budget goes to the browser instead of ads and inventory |
+| **Paying still leaves risk** | Linking, cookie bleed, and proxy mismatch can still happen |
 
-We built Cove Browser to make multi-account isolation a **free platform you can start with** ¡ª solve isolation and collaboration first, then put budget back into the business. Free client download from the website; sign up and go.
+Cove Browser makes multi-account isolation a **free platform you can start with** ¡ª nail isolation and collaboration first, then put budget back into the business. Download from the website, sign up, and go.
 
 <p align="center">
   <img src="docs/assets/website-hero.png" width="920" alt="Cove Browser platform overview" />
@@ -73,22 +73,22 @@ We built Cove Browser to make multi-account isolation a **free platform you can 
 
 ### Platform capabilities
 
-| | Capability | Notes |
+| | Capability | Business value |
 |:---:|---|---|
-| 01 | **Multi-account environments** | Isolated fingerprint, cookies, storage, proxy |
-| 02 | **Batch ops** | Create, import, start, stop, recycle bin |
-| 03 | **Groups & tags** | Organize by project / client / owner |
-| 04 | **Window sync** | Mouse, keyboard, scroll across windows |
-| 05 | **Local API** | Localhost JSON API; CDP after launch |
-| 06 | **Team collaboration** | Members, roles, permissions, assignment |
-| 07 | **Proxy management** | HTTP / HTTPS / SOCKS5 with checks |
+| 01 | **Multi-account environments** | One store, one environment ¡ª fingerprint / cookies / storage / proxy stay separate |
+| 02 | **Batch management** | Create, import, start/stop, recycle ¡ª scale the environment library |
+| 03 | **Groups & tags** | Organize by project, client, or owner for clean handoffs |
+| 04 | **Window sync** | Sync mouse, keyboard, and scroll for bulk backend work |
+| 05 | **Local API** | Localhost JSON API with CDP after launch for automation |
+| 06 | **Team collaboration** | Members, roles, permissions, and environment assignment |
+| 07 | **Proxy management** | HTTP / HTTPS / SOCKS5 with checks, then bind to an environment |
 
 ### Client UI
 
 <p align="center">
   <img src="docs/assets/profiles.png" width="900" alt="Environment manager" />
 </p>
-<p align="center"><sub>Environment manager ¡ª stores, fingerprints, proxies, groups, notes</sub></p>
+<p align="center"><sub>Environment hub ¡ª stores, fingerprints, proxies, groups, and notes in one place</sub></p>
 
 <br/>
 
@@ -100,15 +100,15 @@ We built Cove Browser to make multi-account isolation a **free platform you can 
 <br/>
 
 <p align="center">
-  <img src="docs/assets/launch.png" width="720" alt="Launch progress" />
+  <img src="docs/assets/launch.png" width="900" alt="Launch progress" />
 </p>
-<p align="center"><sub>Launch ¡ª open an independent browser window when ready</sub></p>
+<p align="center"><sub>One-click launch ¡ª open an independent browser window when ready</sub></p>
 
 ---
 
 ## Detection results
 
-Profiles present as **Chrome** (UA / Client Hints). Public third-party samples ¡ª retest yourself.
+Profiles present as **Chrome** (UA / Client Hints). Public third-party samples below ¡ª retest on your own setup.
 
 | Detector | Focus | Result |
 |---|---|:---:|
@@ -158,14 +158,14 @@ Profiles present as **Chrome** (UA / Client Hints). Public third-party samples ¡
 
 </details>
 
-> Results vary by detector and setup. Retest with a region-matched proxy before go-live.
+> Results vary by detector policy and profile setup. Before go-live, retest with a region-matched proxy and the target environment.
 
 ---
 
 ## Use cases
 
-Teams worry about three things: **linked stores**, **shared browsers causing account bleed**, and **tool fees rising faster than margin**.  
-Cove Browser turns every store or account into an isolated environment ¡ª and ships that isolation as a free platform for sellers, agencies, and studios.
+Cross-border teams usually hit three problems: **linked stores**, **shared-browser account bleed**, and **tool fees eating margin**.  
+Cove Browser splits risk with isolated environments and lowers the entry bar with a free platform ¡ª ready for solo sellers, agencies, and studios.
 
 <p align="center">
   <img src="docs/assets/scenario-stores.webp" width="420" alt="Multi-store isolation" />
@@ -173,14 +173,14 @@ Cove Browser turns every store or account into an isolated environment ¡ª and sh
   <img src="docs/assets/scenario-social.webp" width="420" alt="Social matrix isolation" />
 </p>
 
-| Scenario | Pain point | How Cove helps |
+| Scenario | Pain point | Cove approach |
 |---|---|---|
-| **Multi-marketplace ops** | Same-machine logins link stores; commercial tools charge per environment as you scale | One store, one environment + regional proxy; start on a free platform |
-| **Registration & warm-up** | Unstable device / IP profiles fail review and warm-up | Keep fingerprint and egress IP consistent from signup through growth |
-| **Ads & reporting** | Switching ad accounts wastes time; one shared browser risks bleed | Separate Meta / Google / on-platform accounts; window sync for budgets and reports |
-| **Social & private-domain** | Cookie bleed links matrix accounts | Isolate Facebook, Instagram, TikTok, YouTube, WhatsApp |
-| **Agencies & teams** | Seat fees stack; handoffs mean rebuilding fingerprints and proxies | Group by client ¡Á store with roles; shared environment library |
-| **Local automation** | Automation often sits behind another paid tier | Local API + CDP inside a chosen environment for repricing, scraping, listing |
+| **Multi-marketplace ops** | Same-machine logins get linked; per-environment pricing scales badly | One store, one environment + regional proxy for backend, listing, and fulfillment |
+| **Registration & warm-up** | Unstable device/IP profiles fail review repeatedly | Keep fingerprint and egress IP consistent from signup through daily use |
+| **Ads & reporting** | Account switching wastes time; shared browsers create bleed risk | Separate Meta / Google / on-platform ad accounts; window sync for budgets and reports |
+| **Social & private-domain** | Cookie bleed links matrix accounts | Isolate Facebook, Instagram, TikTok, YouTube, WhatsApp, and more |
+| **Agencies & team ops** | Seat costs stack; handoffs rebuild fingerprints and proxies | Group by client ¡Á store with roles; keep one shared environment library |
+| **Local automation** | Automation is often locked behind another paid tier | Local API + CDP inside a chosen environment for repricing, scraping, listing |
 
 ---
 
@@ -189,15 +189,15 @@ Cove Browser turns every store or account into an isolated environment ¡ª and sh
 | Step | Action |
 |:---:|---|
 | 1 | **Free download** from [covebrowser.com](https://covebrowser.com/) (Windows / macOS) |
-| 2 | Sign up / sign in with email |
-| 3 | Create an environment (fingerprint, proxy, notes) |
-| 4 | Launch; enable the local API when you need automation |
+| 2 | Sign up and sign in with email |
+| 3 | Create an environment ¡ª fingerprint, proxy, notes |
+| 4 | Launch and work; enable the local API when you need automation |
 
 <div align="center">
 
 <br/>
 
-**Start free** ¡ú [Download Cove Browser](https://covebrowser.com/)
+**Start free now** ¡ú [Download Cove Browser](https://covebrowser.com/)
 
 </div>
 
@@ -221,5 +221,5 @@ Cove Browser turns every store or account into an isolated environment ¡ª and sh
 ---
 
 <div align="center">
-<sub>MIT License ¡¤ Free platform ¡¤ Installers from the website</sub>
+<sub>MIT License ¡¤ Free fingerprint browser platform for cross-border e-commerce ¡¤ Installers from the website</sub>
 </div>
