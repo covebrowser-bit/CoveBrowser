@@ -4,10 +4,10 @@
 
 # Cove Browser
 
-### Fingerprint browser platform for cross-border e-commerce
+### Free fingerprint browser platform for cross-border e-commerce
 
-Independent browser environments per storefront ¡ª fingerprint ¡¤ cookies ¡¤ proxy egress  
-Reduce store linking and team account bleed
+One store, one environment ¡ª fingerprint ¡¤ cookies ¡¤ proxy egress  
+Safer multi-store ops without account bleed
 
 <br/>
 
@@ -15,23 +15,23 @@ Reduce store linking and team account bleed
 
 <br/>
 
-<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Website-covebrowser.com-0A7CFF?style=for-the-badge" alt="Website" /></a>
+<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Free%20platform-22C55E?style=for-the-badge" alt="Free platform" /></a>
 &nbsp;
-<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Download-Windows%20%7C%20macOS-111827?style=for-the-badge" alt="Download" /></a>
+<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Download-Windows%20%7C%20macOS-0A7CFF?style=for-the-badge" alt="Download" /></a>
 &nbsp;
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" /></a>
 
 <br/><br/>
 
-**Download** ¡ú [covebrowser.com](https://covebrowser.com/)¡¡£ü¡¡Current **v0.1.14**
+**Free download** ¡ú [covebrowser.com](https://covebrowser.com/)¡¡£ü¡¡Current **v0.1.14**
 
 </div>
 
 <br/>
 
-| Store isolation | Team collaboration | Batch efficiency |
+| Free to start | Store isolation | Team collaboration |
 |:---:|:---:|:---:|
-| One store, one environment | Roles, assignment, shared workspace | Window sync + local API / CDP |
+| Free client download ¡ª sign up and go | One store, one environment | Roles, assignment, shared workspace |
 
 ---
 
@@ -47,8 +47,8 @@ Reduce store linking and team account bleed
 
 ## Platform
 
-Cove Browser is a desktop fingerprint-browser **platform** for **sellers, agencies, and business teams**.  
-For Amazon, Shopify, Shopee, TikTok Shop and more, each storefront becomes an isolated runtime ¡ª fingerprint, cookies, storage, and proxy egress stay separate ¡ª with account warm-up, window sync, and local automation.
+Cove Browser is a **free fingerprint browser platform** for cross-border sellers, agencies, and ops teams.  
+For Amazon, Shopify, Shopee, TikTok Shop and more, each storefront becomes an isolated runtime ¡ª fingerprint, cookies, storage, and proxy egress stay separate ¡ª with account warm-up, window sync, and local automation to reduce store linking and team account bleed.
 
 <p align="center">
   <img src="docs/assets/website-hero.png" width="920" alt="Cove Browser platform overview" />
@@ -171,8 +171,8 @@ Cove Browser turns every store or account into an isolated environment ¡ª finger
 
 | Step | Action |
 |:---:|---|
-| 1 | Download the client from [covebrowser.com](https://covebrowser.com/) (Windows / macOS) |
-| 2 | Sign in with email (personal or team) |
+| 1 | **Free download** from [covebrowser.com](https://covebrowser.com/) (Windows / macOS) |
+| 2 | Sign up / sign in with email |
 | 3 | Create an environment (fingerprint, proxy, notes) |
 | 4 | Launch; enable the local API when you need automation |
 
@@ -180,7 +180,7 @@ Cove Browser turns every store or account into an isolated environment ¡ª finger
 
 <br/>
 
-**Get started** ¡ú [Download Cove Browser](https://covebrowser.com/)
+**Start free** ¡ú [Download Cove Browser](https://covebrowser.com/)
 
 </div>
 
@@ -204,5 +204,5 @@ Cove Browser turns every store or account into an isolated environment ¡ª finger
 ---
 
 <div align="center">
-<sub>MIT License ¡¤ Installers from the website</sub>
+<sub>MIT License ¡¤ Free platform ¡¤ Installers from the website</sub>
 </div>
