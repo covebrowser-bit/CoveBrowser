@@ -4,11 +4,11 @@
 
 # Cove Browser
 
-**Enterprise fingerprint browser ！ desktop client**
+**Fingerprint browser desktop client for cross-border e-commerce**
 
 [English](./README.en.md) ， [嶄猟](./README.md)
 
-A desktop client for everyday users and teams: create environments, bind proxies, manage members, and sync windows ！ without hand-crafting CLI flags.
+Built for cross-border sellers and ops teams: isolate multi-store and multi-marketplace accounts, bind proxies, and sync windows for bulk work ！ without hand-crafting CLI flags.
 
 - Download: [covebrowser.com](https://covebrowser.com/) (Windows ， macOS)
 - Current client: **Cove Browser v0.1.14**
