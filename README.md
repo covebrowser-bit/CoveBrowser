@@ -1,176 +1,202 @@
 <div align="center">
 
-<img src="docs/assets/logo.png" width="72" alt="Cove Browser 指纹浏览器" />
+<img src="docs/assets/logo.png" width="80" alt="Cove Browser" />
 
 # Cove Browser
 
-**免费跨境电商指纹浏览器｜企业可免费使用 · 多店铺独立环境**
+### 跨境电商指纹浏览器平台 · 个人与企业均可免费使用
+
+为每个店铺建立独立浏览器环境，隔离指纹 · Cookie · 代理出口  
+降低多店关联与团队串号风险
+
+<br/>
 
 [English](./README.en.md) · [中文](./README.md)
 
-<p>
-  <a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/企业免费使用-Free-22C55E.svg" alt="Free for business"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
-  <a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/download-Windows%20%7C%20macOS-0A7CFF.svg" alt="Download"></a>
-  <a href="https://github.com/covebrowser-bit/CoveBrowser/stargazers"><img src="https://img.shields.io/github/stars/covebrowser-bit/CoveBrowser?style=flat" alt="Stars"></a>
-</p>
+<br/>
 
-**免费下载** → [covebrowser.com](https://covebrowser.com/)（Windows · macOS）｜当前版本 **v0.1.14**
+<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/%E4%BC%81%E4%B8%9A%E5%85%8D%E8%B4%B9%E4%BD%BF%E7%94%A8-Free-22C55E?style=for-the-badge" alt="企业免费使用" /></a>
+&nbsp;
+<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Download-Windows%20%7C%20macOS-0A7CFF?style=for-the-badge" alt="下载客户端" /></a>
+&nbsp;
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" /></a>
+
+<br/><br/>
+
+**官网免费下载** → [covebrowser.com](https://covebrowser.com/)　｜　当前版本 **v0.1.14**
 
 </div>
+
+<br/>
+
+| 多店隔离 | 团队协作 | 批量效率 |
+|:---:|:---:|:---:|
+| 一店一环境，指纹与出口 IP 分离 | 成员权限、环境分配，企业可免费使用 | 窗口同步 + 本地 API / CDP |
 
 ---
 
 ## 目录
 
-- [产品介绍](#产品介绍)
+- [平台介绍](#平台介绍)
 - [各网站检测结果](#各网站检测结果)
 - [应用场景](#应用场景)
 - [快速上手](#快速上手)
 - [联系我们](#联系我们)
-- [Star History](#star-history)
 
 ---
 
-## 产品介绍
+## 平台介绍
 
-Cove Browser 是面向跨境卖家、代运营与企业团队的桌面指纹浏览器——**个人与企业均可免费使用**。为 **Amazon / Shopify / Shopee / TikTok Shop** 等平台的每个店铺建立独立环境，绑定地区代理，支持开店养号与窗口同步批量操作，降低店铺关联与团队串号风险。
+Cove Browser 是面向**跨境卖家、代运营与企业团队**的桌面指纹浏览器平台。  
+围绕 Amazon、Shopify、Shopee、TikTok Shop 等电商站点，把每个店铺做成独立运行环境——指纹、Cookie、本地存储与代理出口完全分开，支持开店养号、窗口同步与本地自动化。
 
-<p align="center">
-  <img src="docs/assets/website-hero.png" width="900" alt="Cove Browser 跨境电商指纹浏览器官网与环境管理界面" />
-</p>
-
-### 核心能力
-
-| 功能 | 说明 |
-|---|---|
-| 多账号环境 | 每环境独立指纹、Cookie、存储、代理 |
-| 批量管理 | 创建、导入、启动、停止、回收站 |
-| 分组与标签 | 按项目、客户、负责人整理 |
-| 窗口同步 | 鼠标、键盘、滚动同步到多窗口 |
-| 本地 API | 本机 JSON API，启动后返回 CDP |
-| 团队协作 | 成员、角色、权限、环境分配 |
-| 代理管理 | HTTP / HTTPS / SOCKS5，检测并绑定环境 |
-
-### 软件截图
-
-桌面客户端界面（v0.1.x）。
+**个人卖家与企业团队均可免费使用**，无需按席位付费即可起步。
 
 <p align="center">
-  <img src="docs/assets/profiles.png" width="900" alt="Cove Browser 多店铺环境管理界面" />
+  <img src="docs/assets/website-hero.png" width="920" alt="Cove Browser 平台官网与环境管理" />
 </p>
-<p align="center"><em>环境管理：每个店铺独立指纹、代理、分组与备注</em></p>
+
+### 平台能力
+
+| | 能力 | 说明 |
+|:---:|---|---|
+| 01 | **多账号环境** | 每环境独立指纹、Cookie、存储与代理 |
+| 02 | **批量管理** | 创建、导入、启动、停止、回收站一站完成 |
+| 03 | **分组与标签** | 按项目、客户、负责人整理环境库 |
+| 04 | **窗口同步** | 鼠标、键盘、滚动同步到多窗口 |
+| 05 | **本地 API** | 本机 JSON API，启动后返回 CDP |
+| 06 | **团队协作** | 成员、角色、权限与环境分配 |
+| 07 | **代理管理** | HTTP / HTTPS / SOCKS5，检测后绑定环境 |
+
+### 客户端界面
 
 <p align="center">
-  <img src="docs/assets/fingerprint.png" width="900" alt="Cove Browser Canvas WebGL Audio 指纹配置" />
+  <img src="docs/assets/profiles.png" width="900" alt="环境管理" />
 </p>
-<p align="center"><em>指纹配置：Canvas / WebGL / Audio / 硬件与系统参数按环境隔离</em></p>
+<p align="center"><sub>环境管理 — 店铺、指纹、代理、分组与备注集中维护</sub></p>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/launch.png" width="720" alt="Cove Browser 环境启动进度" />
+  <img src="docs/assets/fingerprint.png" width="900" alt="指纹配置" />
 </p>
-<p align="center"><em>启动环境：内核与代理就绪后进入独立浏览器窗口</em></p>
+<p align="center"><sub>指纹配置 — Canvas / WebGL / Audio / 硬件与系统参数按环境隔离</sub></p>
+
+<br/>
+
+<p align="center">
+  <img src="docs/assets/launch.png" width="720" alt="启动环境" />
+</p>
+<p align="center"><sub>启动环境 — 内核与代理就绪后进入独立浏览器窗口</sub></p>
 
 ---
 
 ## 各网站检测结果
 
-内核按 **Chrome** 身份呈现（UA / Client Hints）。以下为公开第三方检测站实测示例，可自行复测。
+内核以 **Chrome** 身份呈现（UA / Client Hints）。以下为公开第三方检测站实测摘要，便于自行复测。
 
-| 检测站 | 关注点 | 结果摘要 |
-|---|---|---|
-| [Fingerprint.com](https://demo.fingerprint.com/) | Bot / VPN / 篡改 / 虚拟机 | Bot、Tampering 等 Not detected |
-| [BrowserScan](https://www.browserscan.net/) | 身份、时区、语言、WebRTC、可信度 | Chrome 画像，真实性满分档 |
-| [bot.sannysoft.com](https://bot.sannysoft.com/) | WebDriver、Chrome、插件、WebGL | Intoli 系多项 passed / ok |
-| [ScrapingCourse Antibot](https://www.scrapingcourse.com/antibot-challenge) | Antibot 挑战 | 挑战通过 |
-| [DeviceAndBrowserInfo](https://deviceandbrowserinfo.com/) | isBot / WebDriver / Headless | You are human |
+| 检测站 | 关注点 | 结果 |
+|---|---|:---:|
+| [Fingerprint.com](https://demo.fingerprint.com/) | Bot / VPN / 篡改 / 虚拟机 | **Not detected** |
+| [BrowserScan](https://www.browserscan.net/) | 身份、时区、语言、WebRTC、可信度 | **真实性满分档** |
+| [bot.sannysoft.com](https://bot.sannysoft.com/) | WebDriver、Chrome、插件、WebGL | **Passed** |
+| [ScrapingCourse Antibot](https://www.scrapingcourse.com/antibot-challenge) | Antibot 挑战 | **通过** |
+| [DeviceAndBrowserInfo](https://deviceandbrowserinfo.com/) | isBot / WebDriver / Headless | **You are human** |
 
 <details>
-<summary><strong>展开查看检测截图</strong></summary>
+<summary><b>展开检测截图</b></summary>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/detect-fingerprint-pro.png" width="900" alt="Fingerprint.com 指纹浏览器检测结果" />
+  <img src="docs/assets/detect-fingerprint-pro.png" width="900" alt="Fingerprint.com" />
 </p>
-<p align="center"><em>Fingerprint.com：Bot / Tampering / VM 等未检出</em></p>
+<p align="center"><sub>Fingerprint.com — Bot / Tampering / VM 等未检出</sub></p>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/detect-browserscan-detail.png" width="900" alt="BrowserScan 指纹真实性 100%" />
+  <img src="docs/assets/detect-browserscan-detail.png" width="900" alt="BrowserScan" />
 </p>
-<p align="center"><em>BrowserScan：Browser fingerprint authenticity 满分档</em></p>
+<p align="center"><sub>BrowserScan — Browser fingerprint authenticity 满分档</sub></p>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/detect-sannysoft.png" width="720" alt="Sannysoft WebDriver 检测通过" />
+  <img src="docs/assets/detect-sannysoft.png" width="720" alt="Sannysoft" />
 </p>
-<p align="center"><em>bot.sannysoft.com：WebDriver missing 等项通过</em></p>
+<p align="center"><sub>bot.sannysoft.com — WebDriver missing 等项通过</sub></p>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/detect-antibot.png" width="720" alt="ScrapingCourse Antibot 挑战通过" />
+  <img src="docs/assets/detect-antibot.png" width="720" alt="Antibot" />
 </p>
-<p align="center"><em>ScrapingCourse Antibot Challenge：通过</em></p>
+<p align="center"><sub>ScrapingCourse Antibot Challenge — 通过</sub></p>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/detect-human.png" width="720" alt="DeviceAndBrowserInfo You are human" />
+  <img src="docs/assets/detect-human.png" width="720" alt="DeviceAndBrowserInfo" />
 </p>
-<p align="center"><em>DeviceAndBrowserInfo：You are human</em></p>
+<p align="center"><sub>DeviceAndBrowserInfo — You are human</sub></p>
 
 </details>
 
-> 检测结果随站点算法与配置变化；正式开店前请用目标地区代理 + 对应环境再测一轮。
+> 检测结果随站点算法与配置变化。正式开店前，请用目标地区代理 + 对应环境再测一轮。
 
 ---
 
 ## 应用场景
 
-跨境卖家与企业团队最怕两件事：**店铺互相牵连**，以及**多人共用浏览器导致串号**。Cove Browser **免费开放给个人与企业使用**，把每个店铺 / 账号做成独立环境——指纹、Cookie、本地存储、代理出口分开，从个人卖家到代运营、工作室都能直接上手。
+卖家与企业团队最怕两件事：**店铺互相牵连**，以及**多人共用浏览器导致串号**。  
+Cove Browser 把每个店铺 / 账号做成独立环境——指纹、Cookie、本地存储、代理出口分开，从个人卖家到代运营、工作室都能直接上手。
 
 <p align="center">
-  <img src="docs/assets/scenario-stores.webp" width="420" alt="跨境电商多店铺指纹隔离场景" />
-  &nbsp;
-  <img src="docs/assets/scenario-social.webp" width="420" alt="社媒矩阵账号隔离场景" />
+  <img src="docs/assets/scenario-stores.webp" width="420" alt="多店铺隔离" />
+  &nbsp;&nbsp;
+  <img src="docs/assets/scenario-social.webp" width="420" alt="社媒矩阵隔离" />
 </p>
 
-### 多平台多店铺运营
-
-Amazon、Shopify、eBay、Shopee、Lazada、Walmart、TikTok Shop 等，一个卖家常同时管理几十上百个店。每个店铺绑定独立环境 + 地区代理，后台登录、上架改价、履约互不干扰，降低「一号异常、全店受影响」的风险。
-
-### 新店注册与养号
-
-开店、过审、养权重需要稳定的设备与网络画像。为注册、登录、日常浏览规划环境，让账号长期保持一致的指纹与出口 IP，更适合批量建店与长期维护。
-
-### 广告投放与数据看板
-
-多套 Meta / Google / 站内广告账户用独立环境打开，配合窗口同步批量改预算、查报表、开关活动，减少切号与清缓存成本。
-
-### 社媒与私域矩阵
-
-Facebook、Instagram、TikTok、YouTube、WhatsApp、邮件工具等矩阵账号各自隔离，发布、私信、社群可并行，避免 Cookie 串号关联。
-
-### 代运营 / 企业团队协作
-
-按「客户 × 店铺」分组，分配成员可见范围与权限。环境库统一维护，新人接手不必重配指纹和代理。企业团队可免费使用，无需按席位额外付费起步。
-
-### 本地自动化与批量任务
-
-开启本机 API，在指定环境内对接改价、采集、上架脚本；启动后可返回 CDP，把隔离环境与自动化接在同一链路。
+| 场景 | 怎么用 |
+|---|---|
+| **多平台多店铺运营** | Amazon、Shopify、eBay、Shopee、Lazada、Walmart、TikTok Shop 等，一店一环境 + 地区代理，后台、上架、履约互不干扰 |
+| **新店注册与养号** | 注册、过审、养权重保持一致指纹与出口 IP，适合批量建店与长期维护 |
+| **广告投放与数据看板** | Meta / Google / 站内广告账户分环境打开，窗口同步改预算、查报表、开关活动 |
+| **社媒与私域矩阵** | Facebook、Instagram、TikTok、YouTube、WhatsApp 等账号隔离，发布与私信可并行 |
+| **代运营 / 企业协作** | 按「客户 × 店铺」分组与授权，环境库统一维护；企业团队可免费使用 |
+| **本地自动化** | 开启本机 API，在指定环境内对接改价、采集、上架；启动后返回 CDP |
 
 ---
 
 ## 快速上手
 
-1. 打开 [covebrowser.com](https://covebrowser.com/) **免费下载**客户端（Windows / macOS）  
-2. 邮箱登录（个人、团队、企业账号均可）  
-3. 创建环境：配置指纹、代理、备注  
-4. 启动环境开始工作；需要自动化再开启本地 API  
+| 步骤 | 操作 |
+|:---:|---|
+| 1 | 打开 [covebrowser.com](https://covebrowser.com/) **免费下载**客户端（Windows / macOS） |
+| 2 | 邮箱登录（个人、团队、企业账号均可） |
+| 3 | 创建环境：配置指纹、代理、备注 |
+| 4 | 启动环境开始工作；需要自动化时再开启本地 API |
+
+<div align="center">
+
+<br/>
+
+**现在开始** → [免费下载 Cove Browser](https://covebrowser.com/)
+
+</div>
 
 ---
 
 ## 联系我们
 
-- 官网：[covebrowser.com](https://covebrowser.com/)
-- 邮箱：[support@covebrowser.com](mailto:support@covebrowser.com)
-- Telegram：[@covebrowser](https://t.me/covebrowser)
-- QQ 群：`263172684`
-- Issues：[covebrowser-bit/CoveBrowser](https://github.com/covebrowser-bit/CoveBrowser/issues)
+| | |
+|---|---|
+| 官网 | [covebrowser.com](https://covebrowser.com/) |
+| 邮箱 | [support@covebrowser.com](mailto:support@covebrowser.com) |
+| Telegram | [@covebrowser](https://t.me/covebrowser) |
+| QQ 群 | `263172684` |
+| Issues | [covebrowser-bit/CoveBrowser](https://github.com/covebrowser-bit/CoveBrowser/issues) |
 
 ---
 
@@ -180,4 +206,6 @@ Facebook、Instagram、TikTok、YouTube、WhatsApp、邮件工具等矩阵账号各自隔离，发布
 
 ---
 
+<div align="center">
 <sub>MIT License · 个人与企业均可免费使用 · 安装包请从官网获取</sub>
+</div>

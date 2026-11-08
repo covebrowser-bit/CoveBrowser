@@ -1,75 +1,93 @@
 <div align="center">
 
-<img src="docs/assets/logo.png" width="72" alt="Cove Browser fingerprint browser" />
+<img src="docs/assets/logo.png" width="80" alt="Cove Browser" />
 
 # Cove Browser
 
-**Free fingerprint browser for cross-border e-commerce��Free for business teams**
+### Fingerprint browser platform for cross-border e-commerce ， Free for business
+
+Independent browser environments per storefront ！ fingerprint ， cookies ， proxy egress  
+Reduce store linking and team account bleed
+
+<br/>
 
 [English](./README.en.md) ， [嶄猟](./README.md)
 
-<p>
-  <a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Free%20for%20business-22C55E.svg" alt="Free for business"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
-  <a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/download-Windows%20%7C%20macOS-0A7CFF.svg" alt="Download"></a>
-  <a href="https://github.com/covebrowser-bit/CoveBrowser/stargazers"><img src="https://img.shields.io/github/stars/covebrowser-bit/CoveBrowser?style=flat" alt="Stars"></a>
-</p>
+<br/>
 
-**Free download** ★ [covebrowser.com](https://covebrowser.com/) (Windows ， macOS)��Current **v0.1.14**
+<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Free%20for%20business-22C55E?style=for-the-badge" alt="Free for business" /></a>
+&nbsp;
+<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Download-Windows%20%7C%20macOS-0A7CFF?style=for-the-badge" alt="Download" /></a>
+&nbsp;
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" /></a>
+
+<br/><br/>
+
+**Free download** ★ [covebrowser.com](https://covebrowser.com/)　��　Current **v0.1.14**
 
 </div>
+
+<br/>
+
+| Store isolation | Team collaboration | Batch efficiency |
+|:---:|:---:|:---:|
+| One store, one environment | Roles & assignment ！ free for business | Window sync + local API / CDP |
 
 ---
 
 ## Contents
 
-- [Product](#product)
+- [Platform](#platform)
 - [Detection results](#detection-results)
 - [Use cases](#use-cases)
 - [Get started](#get-started)
 - [Contact](#contact)
-- [Star History](#star-history)
 
 ---
 
-## Product
+## Platform
 
-Cove Browser is a desktop fingerprint browser for sellers, agencies, and business teams ！ **free for individuals and enterprises**. Isolate each **Amazon / Shopify / Shopee / TikTok Shop** storefront, bind regional proxies, warm accounts, and sync windows for bulk ops, reducing store linking and team account bleed.
+Cove Browser is a desktop fingerprint-browser **platform** for **sellers, agencies, and business teams**.  
+For Amazon, Shopify, Shopee, TikTok Shop and more, each storefront becomes an isolated runtime ！ fingerprint, cookies, storage, and proxy egress stay separate ！ with account warm-up, window sync, and local automation.
 
-<p align="center">
-  <img src="docs/assets/website-hero.png" width="900" alt="Cove Browser website and environment manager for ecommerce" />
-</p>
-
-### Core capabilities
-
-| Feature | Notes |
-|---|---|
-| Multi-account environments | Isolated fingerprint, cookies, storage, proxy |
-| Batch ops | Create, import, start, stop, recycle bin |
-| Groups & tags | By project / client / owner |
-| Window sync | Mouse, keyboard, scroll across windows |
-| Local API | Localhost JSON API; CDP after launch |
-| Team collaboration | Members, roles, permissions |
-| Proxies | HTTP / HTTPS / SOCKS5 with checks |
-
-### Screenshots
-
-Desktop UI (v0.1.x).
+**Free for individuals and enterprises** ！ no per-seat fee required to start.
 
 <p align="center">
-  <img src="docs/assets/profiles.png" width="900" alt="Cove Browser multi-store environment manager" />
+  <img src="docs/assets/website-hero.png" width="920" alt="Cove Browser platform overview" />
 </p>
-<p align="center"><em>Environment manager: fingerprint, proxy, groups, and notes per store</em></p>
+
+### Platform capabilities
+
+| | Capability | Notes |
+|:---:|---|---|
+| 01 | **Multi-account environments** | Isolated fingerprint, cookies, storage, proxy |
+| 02 | **Batch ops** | Create, import, start, stop, recycle bin |
+| 03 | **Groups & tags** | Organize by project / client / owner |
+| 04 | **Window sync** | Mouse, keyboard, scroll across windows |
+| 05 | **Local API** | Localhost JSON API; CDP after launch |
+| 06 | **Team collaboration** | Members, roles, permissions, assignment |
+| 07 | **Proxy management** | HTTP / HTTPS / SOCKS5 with checks |
+
+### Client UI
 
 <p align="center">
-  <img src="docs/assets/fingerprint.png" width="900" alt="Cove Browser Canvas WebGL Audio fingerprint settings" />
+  <img src="docs/assets/profiles.png" width="900" alt="Environment manager" />
 </p>
-<p align="center"><em>Fingerprint settings: Canvas / WebGL / Audio / hardware isolated per profile</em></p>
+<p align="center"><sub>Environment manager ！ stores, fingerprints, proxies, groups, notes</sub></p>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/launch.png" width="720" alt="Cove Browser environment launch progress" />
+  <img src="docs/assets/fingerprint.png" width="900" alt="Fingerprint settings" />
 </p>
-<p align="center"><em>Launch progress: open an independent browser window when ready</em></p>
+<p align="center"><sub>Fingerprint settings ！ Canvas / WebGL / Audio / hardware isolated per profile</sub></p>
+
+<br/>
+
+<p align="center">
+  <img src="docs/assets/launch.png" width="720" alt="Launch progress" />
+</p>
+<p align="center"><sub>Launch ！ open an independent browser window when ready</sub></p>
 
 ---
 
@@ -77,99 +95,107 @@ Desktop UI (v0.1.x).
 
 Profiles present as **Chrome** (UA / Client Hints). Public third-party samples ！ retest yourself.
 
-| Detector | Focus | Summary |
-|---|---|---|
-| [Fingerprint.com](https://demo.fingerprint.com/) | Bot / VPN / tampering / VM | Bot, Tampering Not detected |
-| [BrowserScan](https://www.browserscan.net/) | Identity, timezone, language, WebRTC | Chrome profile, top-tier authenticity |
-| [bot.sannysoft.com](https://bot.sannysoft.com/) | WebDriver, Chrome, plugins, WebGL | Intoli-style checks passed / ok |
-| [ScrapingCourse Antibot](https://www.scrapingcourse.com/antibot-challenge) | Antibot challenge | Bypassed |
-| [DeviceAndBrowserInfo](https://deviceandbrowserinfo.com/) | isBot / WebDriver / Headless | You are human |
+| Detector | Focus | Result |
+|---|---|:---:|
+| [Fingerprint.com](https://demo.fingerprint.com/) | Bot / VPN / tampering / VM | **Not detected** |
+| [BrowserScan](https://www.browserscan.net/) | Identity, timezone, language, WebRTC | **Top-tier authenticity** |
+| [bot.sannysoft.com](https://bot.sannysoft.com/) | WebDriver, Chrome, plugins, WebGL | **Passed** |
+| [ScrapingCourse Antibot](https://www.scrapingcourse.com/antibot-challenge) | Antibot challenge | **Bypassed** |
+| [DeviceAndBrowserInfo](https://deviceandbrowserinfo.com/) | isBot / WebDriver / Headless | **You are human** |
 
 <details>
-<summary><strong>Show detection screenshots</strong></summary>
+<summary><b>Show detection screenshots</b></summary>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/detect-fingerprint-pro.png" width="900" alt="Fingerprint.com detection sample" />
+  <img src="docs/assets/detect-fingerprint-pro.png" width="900" alt="Fingerprint.com" />
 </p>
-<p align="center"><em>Fingerprint.com: Bot / Tampering / VM not detected</em></p>
+<p align="center"><sub>Fingerprint.com ！ Bot / Tampering / VM not detected</sub></p>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/detect-browserscan-detail.png" width="900" alt="BrowserScan authenticity 100%" />
+  <img src="docs/assets/detect-browserscan-detail.png" width="900" alt="BrowserScan" />
 </p>
-<p align="center"><em>BrowserScan: fingerprint authenticity at top tier</em></p>
+<p align="center"><sub>BrowserScan ！ fingerprint authenticity at top tier</sub></p>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/detect-sannysoft.png" width="720" alt="Sannysoft WebDriver passed" />
+  <img src="docs/assets/detect-sannysoft.png" width="720" alt="Sannysoft" />
 </p>
-<p align="center"><em>bot.sannysoft.com: WebDriver missing and related checks</em></p>
+<p align="center"><sub>bot.sannysoft.com ！ WebDriver missing and related checks</sub></p>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/detect-antibot.png" width="720" alt="ScrapingCourse Antibot bypassed" />
+  <img src="docs/assets/detect-antibot.png" width="720" alt="Antibot" />
 </p>
-<p align="center"><em>ScrapingCourse Antibot Challenge: bypassed</em></p>
+<p align="center"><sub>ScrapingCourse Antibot Challenge ！ bypassed</sub></p>
+
+<br/>
 
 <p align="center">
-  <img src="docs/assets/detect-human.png" width="720" alt="DeviceAndBrowserInfo You are human" />
+  <img src="docs/assets/detect-human.png" width="720" alt="DeviceAndBrowserInfo" />
 </p>
-<p align="center"><em>DeviceAndBrowserInfo: You are human</em></p>
+<p align="center"><sub>DeviceAndBrowserInfo ！ You are human</sub></p>
 
 </details>
 
-> Results vary by detector and setup. Retest with region-matched proxy before go-live.
+> Results vary by detector and setup. Retest with a region-matched proxy before go-live.
 
 ---
 
 ## Use cases
 
-Sellers and business teams worry about **linked stores** and **shared browsers causing account bleed**. Cove Browser is **free for individuals and enterprises**, turning every store or account into an isolated environment ！ fingerprint, cookies, storage, and proxy egress stay separate ！ from solo sellers to agencies and in-house ops.
+Sellers and business teams worry about **linked stores** and **shared browsers causing account bleed**.  
+Cove Browser turns every store or account into an isolated environment ！ fingerprint, cookies, storage, and proxy egress stay separate.
 
 <p align="center">
-  <img src="docs/assets/scenario-stores.webp" width="420" alt="Multi-store isolation for cross-border ecommerce" />
-  &nbsp;
-  <img src="docs/assets/scenario-social.webp" width="420" alt="Social matrix account isolation" />
+  <img src="docs/assets/scenario-stores.webp" width="420" alt="Multi-store isolation" />
+  &nbsp;&nbsp;
+  <img src="docs/assets/scenario-social.webp" width="420" alt="Social matrix isolation" />
 </p>
 
-### Multi-marketplace, multi-store ops
-
-Amazon, Shopify, eBay, Shopee, Lazada, Walmart, TikTok Shop, and more. Bind each store to its own environment and regional proxy so backend work stays isolated.
-
-### Store registration and warm-up
-
-Keep consistent fingerprint and egress IP through signup, review, and early growth ！ better for batch store opening.
-
-### Ads and reporting consoles
-
-Open Meta / Google / on-platform ad accounts in separate environments; window sync for budgets, reports, and campaign toggles.
-
-### Social and private-domain matrices
-
-Isolate Facebook, Instagram, TikTok, YouTube, WhatsApp, and email tools so publishing and DMs can run in parallel.
-
-### Agencies and business-team collaboration
-
-Group by client 〜 store, assign visibility and roles, hand off without rebuilding fingerprints and proxies. Business teams can start free ！ no per-seat fee required to begin.
-
-### Local automation and batch jobs
-
-Enable the local API inside an environment; after launch you get CDP for repricing, scraping, or listing scripts.
+| Scenario | How teams use it |
+|---|---|
+| **Multi-marketplace ops** | Amazon, Shopify, eBay, Shopee, Lazada, Walmart, TikTok Shop ！ one store, one environment + regional proxy |
+| **Registration & warm-up** | Keep fingerprint and egress IP consistent through signup, review, and growth |
+| **Ads & reporting** | Separate Meta / Google / on-platform ad accounts; window sync for budgets and reports |
+| **Social & private-domain** | Isolate Facebook, Instagram, TikTok, YouTube, WhatsApp for parallel publishing and DMs |
+| **Agencies & business teams** | Group by client 〜 store with roles; start free ！ no per-seat fee to begin |
+| **Local automation** | Local API inside an environment; CDP after launch for repricing, scraping, listing |
 
 ---
 
 ## Get started
 
-1. **Free download** from [covebrowser.com](https://covebrowser.com/) (Windows / macOS)  
-2. Sign in with email (personal, team, or business)  
-3. Create an environment (fingerprint, proxy, notes)  
-4. Launch; enable the local API when you need automation  
+| Step | Action |
+|:---:|---|
+| 1 | **Free download** from [covebrowser.com](https://covebrowser.com/) (Windows / macOS) |
+| 2 | Sign in with email (personal, team, or business) |
+| 3 | Create an environment (fingerprint, proxy, notes) |
+| 4 | Launch; enable the local API when you need automation |
+
+<div align="center">
+
+<br/>
+
+**Get started** ★ [Download Cove Browser free](https://covebrowser.com/)
+
+</div>
 
 ---
 
 ## Contact
 
-- Website: [covebrowser.com](https://covebrowser.com/)
-- Email: [support@covebrowser.com](mailto:support@covebrowser.com)
-- Telegram: [@covebrowser](https://t.me/covebrowser)
-- Issues: [covebrowser-bit/CoveBrowser](https://github.com/covebrowser-bit/CoveBrowser/issues)
+| | |
+|---|---|
+| Website | [covebrowser.com](https://covebrowser.com/) |
+| Email | [support@covebrowser.com](mailto:support@covebrowser.com) |
+| Telegram | [@covebrowser](https://t.me/covebrowser) |
+| Issues | [covebrowser-bit/CoveBrowser](https://github.com/covebrowser-bit/CoveBrowser/issues) |
 
 ---
 
@@ -179,4 +205,6 @@ Enable the local API inside an environment; after launch you get CDP for reprici
 
 ---
 
+<div align="center">
 <sub>MIT License ， Free for individuals and businesses ， Installers from the website</sub>
+</div>
