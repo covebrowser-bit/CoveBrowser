@@ -21,6 +21,7 @@ Built for cross-border sellers and ops teams: isolate multi-store and multi-mark
 
 - [Website](#website)
 - [Screenshots](#screenshots)
+- [Use cases](#use-cases)
 - [Features](#features)
 - [Detection samples](#detection-samples)
 - [Get started](#get-started)
@@ -68,15 +69,41 @@ Startup progress while the kernel and proxy become ready.
   <img src="docs/assets/launch.png" width="720" alt="Cove Browser launch progress" />
 </p>
 
-### Scenarios
+---
 
-Multi-store and social matrices with isolated cookies, fingerprints, and egress.
+## Use cases
+
+Cross-border sellers usually worry about two things: **stores getting linked**, and **teams sharing one browser so accounts bleed into each other**. Cove Browser turns every store or account into an isolated environment ！ fingerprint, cookies, storage, and proxy egress stay separate ！ from solo sellers to agency-scale ops.
 
 <p align="center">
   <img src="docs/assets/scenario-stores.webp" width="420" alt="Multi-store scenario" />
   &nbsp;
   <img src="docs/assets/scenario-social.webp" width="420" alt="Social scenario" />
 </p>
+
+### Multi-marketplace, multi-store ops
+
+Amazon, Shopify, eBay, Shopee, Lazada, Walmart, TikTok Shop, and more often mean dozens or hundreds of storefronts. Bind each store to its own environment and regional proxy so backend work, listing edits, and order handling stay isolated ！ reducing the risk that one flagged account takes others down with it.
+
+### Store registration and account warm-up
+
+New stores need stable device and network profiles through signup, review, and early growth. Plan environments for registration, login, and daily browsing so each account keeps a consistent fingerprint and egress IP over time ！ better for batch store opening and long-term maintenance.
+
+### Ads and reporting consoles
+
+Teams often run many ad accounts (Meta, Google, on-platform ads). Open each console in its own environment; window sync helps apply the same actions across accounts ！ budgets, reports, campaign toggles ！ without constant account switching and cache clearing.
+
+### Social and private-domain matrices
+
+Acquisition still leans on Facebook, Instagram, TikTok, YouTube, WhatsApp, and email tools. Isolate each account so publishing, DMs, and community ops can run in parallel without cookie bleed and account association.
+
+### Agencies and studio collaboration
+
+When you serve multiple clients, group environments by client 〜 store and assign what each teammate can see and do. Keep one shared environment library so handoffs do not mean rebuilding fingerprints and proxies from scratch.
+
+### Local automation and batch jobs
+
+For scripted repricing, scraping, or listing workflows, enable the local API inside a chosen environment. After launch you get a CDP endpoint ！ isolated profiles and efficiency tooling on one path.
 
 ---
 
