@@ -4,20 +4,20 @@
 
 # Cove Browser
 
-**Fingerprint browser for cross-border e-commerce£üIsolated stores ¡¤ Proxies ¡¤ Window sync**
+**Free fingerprint browser for cross-border e-commerce£üFree for business teams**
 
 [English](./README.en.md) ¡¤ [ÖÐÎÄ](./README.md)
 
 <p>
+  <a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Free%20for%20business-22C55E.svg" alt="Free for business"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/download-Windows%20%7C%20macOS-0A7CFF.svg" alt="Download"></a>
   <a href="https://github.com/covebrowser-bit/CoveBrowser/stargazers"><img src="https://img.shields.io/github/stars/covebrowser-bit/CoveBrowser?style=flat" alt="Stars"></a>
-  <a href="https://github.com/covebrowser-bit/CoveBrowser/issues"><img src="https://img.shields.io/github/issues/covebrowser-bit/CoveBrowser" alt="Issues"></a>
 </p>
 
-Desktop client for cross-border sellers and ops teams ¡ª isolate **Amazon / Shopify / Shopee / TikTok Shop** and other storefronts, bind proxies, and sync windows for bulk work.
+Desktop client for sellers, agencies, and **business teams ¡ª free for individuals and enterprises**. Isolate each **Amazon / Shopify / Shopee / TikTok Shop** storefront, bind regional proxies, warm accounts, and sync windows for bulk ops ¡ª without seat-based lock-in to get started.
 
-**Download** ¡ú [covebrowser.com](https://covebrowser.com/) (Windows ¡¤ macOS)£üCurrent **v0.1.14**
+**Free download** ¡ú [covebrowser.com](https://covebrowser.com/) (Windows ¡¤ macOS)£üCurrent **v0.1.14**
 
 </div>
 
@@ -87,7 +87,7 @@ Profiles present as **Chrome** (UA / Client Hints). Public third-party samples ¡
 
 ## Use cases
 
-Sellers worry about **linked stores** and **shared browsers causing account bleed**. Cove Browser isolates each store/account ¡ª fingerprint, cookies, storage, proxy egress ¡ª from solo sellers to agencies.
+Sellers and business teams worry about **linked stores** and **shared browsers causing account bleed**. Cove Browser is **free for individuals and enterprises**, turning every store or account into an isolated environment ¡ª fingerprint, cookies, storage, and proxy egress stay separate ¡ª from solo sellers to agencies and in-house ops.
 
 <p align="center">
   <img src="docs/assets/scenario-stores.webp" width="420" alt="Multi-store isolation for cross-border ecommerce" />
@@ -111,9 +111,9 @@ Open Meta / Google / on-platform ad accounts in separate environments; window sy
 
 Isolate Facebook, Instagram, TikTok, YouTube, WhatsApp, and email tools so publishing and DMs can run in parallel.
 
-### Agencies and studio collaboration
+### Agencies and business-team collaboration
 
-Group by client ¡Á store, assign visibility and roles, hand off without rebuilding fingerprints and proxies.
+Group by client ¡Á store, assign visibility and roles, hand off without rebuilding fingerprints and proxies. Business teams can start free ¡ª no per-seat fee required to begin.
 
 ### Local automation and batch jobs
 
@@ -161,8 +161,8 @@ Desktop UI (v0.1.x).
 
 ## Get started
 
-1. Download from [covebrowser.com](https://covebrowser.com/) (Windows / macOS)  
-2. Sign in with email  
+1. **Free download** from [covebrowser.com](https://covebrowser.com/) (Windows / macOS)  
+2. Sign in with email (personal, team, or business)  
 3. Create an environment (fingerprint, proxy, notes)  
 4. Launch; enable the local API when you need automation  
 
@@ -183,4 +183,4 @@ Desktop UI (v0.1.x).
 
 ---
 
-<sub>MIT License ¡¤ Product docs & screenshots ¡¤ Installers from the website</sub>
+<sub>MIT License ¡¤ Free for individuals and businesses ¡¤ Installers from the website</sub>

@@ -4,21 +4,20 @@
 
 # Cove Browser
 
-**跨境电商指纹浏览器｜多店铺独立环境 · 代理绑定 · 窗口同步**
+**免费跨境电商指纹浏览器｜企业可免费使用 · 多店铺独立环境**
 
 [English](./README.en.md) · [中文](./README.md)
 
 <p>
+  <a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/企业免费使用-Free-22C55E.svg" alt="Free for business"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/download-Windows%20%7C%20macOS-0A7CFF.svg" alt="Download"></a>
   <a href="https://github.com/covebrowser-bit/CoveBrowser/stargazers"><img src="https://img.shields.io/github/stars/covebrowser-bit/CoveBrowser?style=flat" alt="Stars"></a>
-  <a href="https://github.com/covebrowser-bit/CoveBrowser/issues"><img src="https://img.shields.io/github/issues/covebrowser-bit/CoveBrowser" alt="Issues"></a>
 </p>
 
-给跨境电商卖家和运营团队用的桌面客户端——**Amazon / Shopify / Shopee / TikTok Shop** 等多平台多店铺各自独立环境，配好代理就能开店养号、窗口同步批量操作。
+面向跨境卖家、代运营与企业团队的桌面客户端——**个人与企业均可免费使用**。为 **Amazon / Shopify / Shopee / TikTok Shop** 等平台的每个店铺建立独立环境，绑定地区代理，支持开店养号与窗口同步批量操作，降低店铺关联与团队串号风险。
 
-**立即下载** → [covebrowser.com](https://covebrowser.com/)（Windows · macOS）｜当前版本 **v0.1.14**
-
+**免费下载** → [covebrowser.com](https://covebrowser.com/)（Windows · macOS）｜当前版本 **v0.1.14**
 </div>
 
 <p align="center">
@@ -87,7 +86,7 @@
 
 ## 应用场景
 
-跨境卖家最怕两件事：**店铺互相牵连**，以及**团队共用浏览器导致串号**。Cove Browser 把每个店铺 / 账号做成独立环境——指纹、Cookie、本地存储、代理出口分开，覆盖个人卖家到代运营团队。
+跨境卖家与企业团队最怕两件事：**店铺互相牵连**，以及**多人共用浏览器导致串号**。Cove Browser **免费开放给个人与企业使用**，把每个店铺 / 账号做成独立环境——指纹、Cookie、本地存储、代理出口分开，从个人卖家到代运营、工作室都能直接上手。
 
 <p align="center">
   <img src="docs/assets/scenario-stores.webp" width="420" alt="跨境电商多店铺指纹隔离场景" />
@@ -111,9 +110,9 @@ Amazon、Shopify、eBay、Shopee、Lazada、Walmart、TikTok Shop 等，一个卖家常同时管
 
 Facebook、Instagram、TikTok、YouTube、WhatsApp、邮件工具等矩阵账号各自隔离，发布、私信、社群可并行，避免 Cookie 串号关联。
 
-### 代运营 / 工作室协作
+### 代运营 / 企业团队协作
 
-按「客户 × 店铺」分组，分配成员可见范围与权限。环境库统一维护，新人接手不必重配指纹和代理。
+按「客户 × 店铺」分组，分配成员可见范围与权限。环境库统一维护，新人接手不必重配指纹和代理。企业团队可免费使用，无需按席位额外付费起步。
 
 ### 本地自动化与批量任务
 
@@ -161,8 +160,8 @@ Facebook、Instagram、TikTok、YouTube、WhatsApp、邮件工具等矩阵账号各自隔离，发布
 
 ## 快速上手
 
-1. 打开 [covebrowser.com](https://covebrowser.com/) 下载客户端（Windows / macOS）  
-2. 邮箱登录（个人或团队）  
+1. 打开 [covebrowser.com](https://covebrowser.com/) **免费下载**客户端（Windows / macOS）  
+2. 邮箱登录（个人、团队、企业账号均可）  
 3. 创建环境：配置指纹、代理、备注  
 4. 启动环境开始工作；需要自动化再开启本地 API  
 
@@ -184,4 +183,4 @@ Facebook、Instagram、TikTok、YouTube、WhatsApp、邮件工具等矩阵账号各自隔离，发布
 
 ---
 
-<sub>MIT License · 产品文档与截图仓库 · 安装包请从官网获取</sub>
+<sub>MIT License · 个人与企业均可免费使用 · 安装包请从官网获取</sub>
