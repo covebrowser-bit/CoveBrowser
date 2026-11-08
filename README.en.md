@@ -65,11 +65,6 @@ Profiles present as **Chrome** (UA / Client Hints). Public third-party samples ¡
 <p align="center"><em>BrowserScan: fingerprint authenticity at top tier</em></p>
 
 <p align="center">
-  <img src="docs/assets/detect-browserscan.png" width="900" alt="BrowserScan Chrome identity" />
-</p>
-<p align="center"><em>BrowserScan overview: normal Chrome presentation</em></p>
-
-<p align="center">
   <img src="docs/assets/detect-sannysoft.png" width="720" alt="Sannysoft WebDriver passed" />
 </p>
 <p align="center"><em>bot.sannysoft.com: WebDriver missing and related checks</em></p>

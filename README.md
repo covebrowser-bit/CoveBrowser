@@ -65,11 +65,6 @@
 <p align="center"><em>BrowserScan：Browser fingerprint authenticity 满分档</em></p>
 
 <p align="center">
-  <img src="docs/assets/detect-browserscan.png" width="900" alt="BrowserScan 综合检测 Chrome 身份" />
-</p>
-<p align="center"><em>BrowserScan 综合页：按常规 Chrome 呈现</em></p>
-
-<p align="center">
   <img src="docs/assets/detect-sannysoft.png" width="720" alt="Sannysoft WebDriver 检测通过" />
 </p>
 <p align="center"><em>bot.sannysoft.com：WebDriver missing 等项通过</em></p>

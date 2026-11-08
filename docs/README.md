@@ -9,7 +9,7 @@ Screenshots and images referenced by the root README.
 | `fingerprint.png` | Fingerprint settings |
 | `launch.png` | Environment launch progress |
 | `detect-fingerprint-pro.png` | Fingerprint.com Playground |
-| `detect-browserscan.png` / `detect-browserscan-detail.png` | BrowserScan samples |
+| `detect-browserscan-detail.png` | BrowserScan authenticity sample |
 | `detect-sannysoft.png` | bot.sannysoft.com / Intoli |
 | `detect-antibot.png` | ScrapingCourse Antibot Challenge |
 | `detect-human.png` | DeviceAndBrowserInfo human check |
