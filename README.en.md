@@ -6,8 +6,10 @@
 
 ### Free fingerprint browser platform for cross-border e-commerce
 
-One store, one environment ！ fingerprint ， cookies ， proxy egress  
-Safer multi-store ops without account bleed
+**One store, one environment ， Anti-link ， Ready out of the box**
+
+Isolated fingerprint / cookies / proxy egress ！ less store linking and account bleed  
+Window sync for bulk ops across marketplaces, warm-up, and ads
 
 <br/>
 
@@ -29,9 +31,9 @@ Safer multi-store ops without account bleed
 
 <br/>
 
-| Free to start | Store isolation | Team collaboration |
+| Free to start | Strong isolation | Higher throughput |
 |:---:|:---:|:---:|
-| Free client download ！ sign up and go | One store, one environment | Roles, assignment, shared workspace |
+| Free download ！ sign up and go | Fingerprint ， cookies ， proxy per store | Window sync + local API / CDP |
 
 ---
 
