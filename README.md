@@ -20,10 +20,10 @@
 ## 目录
 
 - [官网](#官网)
-- [软件截图](#软件截图)
+- [权威检测结果](#权威检测结果)
 - [应用场景](#应用场景)
-- [能做什么](#能做什么)
-- [检测示例](#检测示例)
+- [功能说明](#功能说明)
+- [软件截图](#软件截图)
 - [四步上手](#四步上手)
 - [仓库说明](#仓库说明)
 - [联系我们](#联系我们)
@@ -43,33 +43,29 @@
 
 ---
 
-## 软件截图
+## 权威检测结果
 
-下面是桌面客户端主要功能界面（v0.1.x）。
+内核侧按 **Chrome** 身份呈现（UA / Client Hints）。以下为公开第三方检测站实测示例，可自行打开对应站点复测核对，用结果证明环境质量，而不是口头承诺。
 
-### 环境管理
-
-给每个账号建独立环境：指纹、代理、分组、备注分开存放。启动、编辑、分享、删除都在这一页。
-
-<p align="center">
-  <img src="docs/assets/profiles.png" width="900" alt="Cove Browser 环境管理" />
-</p>
-
-### 指纹配置
-
-按环境配置 Canvas / WebGL / Audio / 硬件与系统参数，账号之间不共用一套设备特征。
+| 检测站 | 关注点 | 说明 |
+|---|---|---|
+| Fingerprint.com / 同类指纹站 | Canvas、WebGL、Audio、硬件一致性 | 环境内指纹稳定、可复现 |
+| BrowserScan 等综合检测 | 浏览器身份、时区、语言、WebRTC 等 | 按常规 Chrome 画像评分，而非未知浏览器 |
+| 平台风控相关页面 | 登录态与设备画像 | 结合代理地区配置后用于开店、养号前自检 |
 
 <p align="center">
-  <img src="docs/assets/fingerprint.png" width="900" alt="Cove Browser 指纹配置" />
+  <img src="docs/assets/detect-fingerprint.webp" width="720" alt="Fingerprint 检测示例" />
 </p>
 
-### 启动环境
-
-打开环境时显示启动进度；内核与代理就绪后进入独立浏览器窗口。
+<p align="center"><em>Fingerprint 类检测示例：设备与浏览器指纹表现</em></p>
 
 <p align="center">
-  <img src="docs/assets/launch.png" width="720" alt="Cove Browser 启动进度" />
+  <img src="docs/assets/detect-browserscan.png" width="720" alt="BrowserScan 检测示例" />
 </p>
+
+<p align="center"><em>BrowserScan 等综合检测示例：按 Chrome 身份呈现</em></p>
+
+> 检测结果会随站点算法与本机配置变化；正式开店前建议用目标站点地区代理 + 对应环境再测一轮。
 
 ---
 
@@ -109,7 +105,9 @@ Amazon、Shopify、eBay、Shopee、Lazada、Walmart、TikTok Shop 等平台，一个卖家往往
 
 ---
 
-## 能做什么
+## 功能说明
+
+把检测站验过的隔离能力，落到日常开店与团队协作里：
 
 | 功能 | 说明 |
 |---|---|
@@ -121,20 +119,34 @@ Amazon、Shopify、eBay、Shopee、Lazada、Walmart、TikTok Shop 等平台，一个卖家往往
 | 团队协作 | 成员、角色、权限、环境分配 |
 | 代理 | HTTP / HTTPS / SOCKS5 等，保存、检测、绑定到环境 |
 
-内核侧按 **Chrome** 身份呈现（UA / Client Hints），检测站按普通 Chrome 评分，而不是未知浏览器。
-
 ---
 
-## 检测示例
+## 软件截图
 
-公开检测站结果可自行核对（示例截图）：
+下面是桌面客户端主要功能界面（v0.1.x）。
+
+### 环境管理
+
+给每个账号建独立环境：指纹、代理、分组、备注分开存放。启动、编辑、分享、删除都在这一页。
 
 <p align="center">
-  <img src="docs/assets/detect-fingerprint.webp" width="720" alt="Fingerprint 检测示例" />
+  <img src="docs/assets/profiles.png" width="900" alt="Cove Browser 环境管理" />
 </p>
 
+### 指纹配置
+
+按环境配置 Canvas / WebGL / Audio / 硬件与系统参数，账号之间不共用一套设备特征。
+
 <p align="center">
-  <img src="docs/assets/detect-browserscan.png" width="720" alt="BrowserScan 检测示例" />
+  <img src="docs/assets/fingerprint.png" width="900" alt="Cove Browser 指纹配置" />
+</p>
+
+### 启动环境
+
+打开环境时显示启动进度；内核与代理就绪后进入独立浏览器窗口。
+
+<p align="center">
+  <img src="docs/assets/launch.png" width="720" alt="Cove Browser 启动进度" />
 </p>
 
 ---

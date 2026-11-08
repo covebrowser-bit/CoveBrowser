@@ -20,10 +20,10 @@ Built for cross-border sellers and ops teams: isolate multi-store and multi-mark
 ## Contents
 
 - [Website](#website)
-- [Screenshots](#screenshots)
+- [Detection results](#detection-results)
 - [Use cases](#use-cases)
 - [Features](#features)
-- [Detection samples](#detection-samples)
+- [Screenshots](#screenshots)
 - [Get started](#get-started)
 - [About this repo](#about-this-repo)
 - [Contact](#contact)
@@ -43,31 +43,29 @@ Built for cross-border sellers and ops teams: isolate multi-store and multi-mark
 
 ---
 
-## Screenshots
+## Detection results
 
-### Environment manager
+Profiles present as **Chrome** (UA / Client Hints). Below are sample results from public third-party detectors ¡ª retest yourself for evidence, not marketing claims alone.
 
-Independent profiles for fingerprint, proxy, groups, and notes.
-
-<p align="center">
-  <img src="docs/assets/profiles.png" width="900" alt="Cove Browser environments" />
-</p>
-
-### Fingerprint settings
-
-Configure Canvas / WebGL / Audio / hardware and OS parameters per profile.
+| Detector | Focus | Notes |
+|---|---|---|
+| Fingerprint.com / similar | Canvas, WebGL, Audio, hardware consistency | Stable, reproducible profile fingerprint |
+| BrowserScan and similar | Browser identity, timezone, language, WebRTC | Scored as a normal Chrome profile, not an unknown browser |
+| Platform risk checks | Login / device signals | Self-check before store opening with region-matched proxy |
 
 <p align="center">
-  <img src="docs/assets/fingerprint.png" width="900" alt="Cove Browser fingerprint settings" />
+  <img src="docs/assets/detect-fingerprint.webp" width="720" alt="Fingerprint sample" />
 </p>
 
-### Launch progress
-
-Startup progress while the kernel and proxy become ready.
+<p align="center"><em>Fingerprint-style sample: device and browser signals</em></p>
 
 <p align="center">
-  <img src="docs/assets/launch.png" width="720" alt="Cove Browser launch progress" />
+  <img src="docs/assets/detect-browserscan.png" width="720" alt="BrowserScan sample" />
 </p>
+
+<p align="center"><em>BrowserScan-style sample: Chrome identity presentation</em></p>
+
+> Results vary by detector algorithms and local setup. Before go-live, retest with the target region proxy and the intended environment.
 
 ---
 
@@ -109,6 +107,8 @@ For scripted repricing, scraping, or listing workflows, enable the local API ins
 
 ## Features
 
+Isolation verified by detectors, applied to daily store ops and team work:
+
 | Feature | Notes |
 |---|---|
 | Multi-account environments | Isolated fingerprint, cookies, storage, proxy |
@@ -119,18 +119,34 @@ For scripted repricing, scraping, or listing workflows, enable the local API ins
 | Team collaboration | Members, roles, permissions |
 | Proxies | HTTP / HTTPS / SOCKS5 with connectivity checks |
 
-Profiles present as **Chrome** (UA / Client Hints) on detection sites.
-
 ---
 
-## Detection samples
+## Screenshots
+
+Desktop client UI (v0.1.x).
+
+### Environment manager
+
+Independent profiles for fingerprint, proxy, groups, and notes.
 
 <p align="center">
-  <img src="docs/assets/detect-fingerprint.webp" width="720" alt="Fingerprint sample" />
+  <img src="docs/assets/profiles.png" width="900" alt="Cove Browser environments" />
 </p>
 
+### Fingerprint settings
+
+Configure Canvas / WebGL / Audio / hardware and OS parameters per profile.
+
 <p align="center">
-  <img src="docs/assets/detect-browserscan.png" width="720" alt="BrowserScan sample" />
+  <img src="docs/assets/fingerprint.png" width="900" alt="Cove Browser fingerprint settings" />
+</p>
+
+### Launch progress
+
+Startup progress while the kernel and proxy become ready.
+
+<p align="center">
+  <img src="docs/assets/launch.png" width="720" alt="Cove Browser launch progress" />
 </p>
 
 ---
