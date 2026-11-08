@@ -40,10 +40,14 @@ Window sync for bulk ops across marketplaces, warm-up, and ads
 ## Contents
 
 - [Platform](#platform)
+  - [Why we built a free platform](#why-we-built-a-free-platform)
+  - [Platform capabilities](#platform-capabilities)
+  - [Client UI](#client-ui)
 - [Detection results](#detection-results)
 - [Use cases](#use-cases)
 - [Get started](#get-started)
 - [Contact](#contact)
+- [Star History](#star-history)
 
 ---
 
