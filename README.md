@@ -4,7 +4,7 @@
 
 # Cove Browser
 
-### 跨境电商指纹浏览器平台 · 个人与企业均可免费使用
+### 跨境电商指纹浏览器平台
 
 为每个店铺建立独立浏览器环境，隔离指纹 · Cookie · 代理出口  
 降低多店关联与团队串号风险
@@ -15,15 +15,15 @@
 
 <br/>
 
-<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/%E4%BC%81%E4%B8%9A%E5%85%8D%E8%B4%B9%E4%BD%BF%E7%94%A8-Free-22C55E?style=for-the-badge" alt="企业免费使用" /></a>
+<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Website-covebrowser.com-0A7CFF?style=for-the-badge" alt="官网" /></a>
 &nbsp;
-<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Download-Windows%20%7C%20macOS-0A7CFF?style=for-the-badge" alt="下载客户端" /></a>
+<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Download-Windows%20%7C%20macOS-111827?style=for-the-badge" alt="下载客户端" /></a>
 &nbsp;
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" /></a>
 
 <br/><br/>
 
-**官网免费下载** → [covebrowser.com](https://covebrowser.com/)　｜　当前版本 **v0.1.14**
+**官网下载** → [covebrowser.com](https://covebrowser.com/)　｜　当前版本 **v0.1.14**
 
 </div>
 
@@ -31,7 +31,7 @@
 
 | 多店隔离 | 团队协作 | 批量效率 |
 |:---:|:---:|:---:|
-| 一店一环境，指纹与出口 IP 分离 | 成员权限、环境分配，企业可免费使用 | 窗口同步 + 本地 API / CDP |
+| 一店一环境，指纹与出口 IP 分离 | 成员权限、环境分配、统一管理 | 窗口同步 + 本地 API / CDP |
 
 ---
 
@@ -49,8 +49,6 @@
 
 Cove Browser 是面向**跨境卖家、代运营与企业团队**的桌面指纹浏览器平台。  
 围绕 Amazon、Shopify、Shopee、TikTok Shop 等电商站点，把每个店铺做成独立运行环境——指纹、Cookie、本地存储与代理出口完全分开，支持开店养号、窗口同步与本地自动化。
-
-**个人卖家与企业团队均可免费使用**，无需按席位付费即可起步。
 
 <p align="center">
   <img src="docs/assets/website-hero.png" width="920" alt="Cove Browser 平台官网与环境管理" />
@@ -164,7 +162,7 @@ Cove Browser 把每个店铺 / 账号做成独立环境——指纹、Cookie、本地存储、代理出口分
 | **新店注册与养号** | 注册、过审、养权重保持一致指纹与出口 IP，适合批量建店与长期维护 |
 | **广告投放与数据看板** | Meta / Google / 站内广告账户分环境打开，窗口同步改预算、查报表、开关活动 |
 | **社媒与私域矩阵** | Facebook、Instagram、TikTok、YouTube、WhatsApp 等账号隔离，发布与私信可并行 |
-| **代运营 / 企业协作** | 按「客户 × 店铺」分组与授权，环境库统一维护；企业团队可免费使用 |
+| **代运营 / 企业协作** | 按「客户 × 店铺」分组与授权，环境库统一维护，新人接手无需重配 |
 | **本地自动化** | 开启本机 API，在指定环境内对接改价、采集、上架；启动后返回 CDP |
 
 ---
@@ -173,8 +171,8 @@ Cove Browser 把每个店铺 / 账号做成独立环境——指纹、Cookie、本地存储、代理出口分
 
 | 步骤 | 操作 |
 |:---:|---|
-| 1 | 打开 [covebrowser.com](https://covebrowser.com/) **免费下载**客户端（Windows / macOS） |
-| 2 | 邮箱登录（个人、团队、企业账号均可） |
+| 1 | 打开 [covebrowser.com](https://covebrowser.com/) 下载客户端（Windows / macOS） |
+| 2 | 邮箱登录（个人或团队账号） |
 | 3 | 创建环境：配置指纹、代理、备注 |
 | 4 | 启动环境开始工作；需要自动化时再开启本地 API |
 
@@ -182,7 +180,7 @@ Cove Browser 把每个店铺 / 账号做成独立环境——指纹、Cookie、本地存储、代理出口分
 
 <br/>
 
-**现在开始** → [免费下载 Cove Browser](https://covebrowser.com/)
+**现在开始** → [下载 Cove Browser](https://covebrowser.com/)
 
 </div>
 
@@ -207,5 +205,5 @@ Cove Browser 把每个店铺 / 账号做成独立环境——指纹、Cookie、本地存储、代理出口分
 ---
 
 <div align="center">
-<sub>MIT License · 个人与企业均可免费使用 · 安装包请从官网获取</sub>
+<sub>MIT License · 安装包请从官网获取</sub>
 </div>

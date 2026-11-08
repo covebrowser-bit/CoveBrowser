@@ -4,7 +4,7 @@
 
 # Cove Browser
 
-### Fingerprint browser platform for cross-border e-commerce ¡¤ Free for business
+### Fingerprint browser platform for cross-border e-commerce
 
 Independent browser environments per storefront ¡ª fingerprint ¡¤ cookies ¡¤ proxy egress  
 Reduce store linking and team account bleed
@@ -15,15 +15,15 @@ Reduce store linking and team account bleed
 
 <br/>
 
-<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Free%20for%20business-22C55E?style=for-the-badge" alt="Free for business" /></a>
+<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Website-covebrowser.com-0A7CFF?style=for-the-badge" alt="Website" /></a>
 &nbsp;
-<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Download-Windows%20%7C%20macOS-0A7CFF?style=for-the-badge" alt="Download" /></a>
+<a href="https://covebrowser.com/"><img src="https://img.shields.io/badge/Download-Windows%20%7C%20macOS-111827?style=for-the-badge" alt="Download" /></a>
 &nbsp;
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT" /></a>
 
 <br/><br/>
 
-**Free download** ¡ú [covebrowser.com](https://covebrowser.com/)¡¡£ü¡¡Current **v0.1.14**
+**Download** ¡ú [covebrowser.com](https://covebrowser.com/)¡¡£ü¡¡Current **v0.1.14**
 
 </div>
 
@@ -31,7 +31,7 @@ Reduce store linking and team account bleed
 
 | Store isolation | Team collaboration | Batch efficiency |
 |:---:|:---:|:---:|
-| One store, one environment | Roles & assignment ¡ª free for business | Window sync + local API / CDP |
+| One store, one environment | Roles, assignment, shared workspace | Window sync + local API / CDP |
 
 ---
 
@@ -49,8 +49,6 @@ Reduce store linking and team account bleed
 
 Cove Browser is a desktop fingerprint-browser **platform** for **sellers, agencies, and business teams**.  
 For Amazon, Shopify, Shopee, TikTok Shop and more, each storefront becomes an isolated runtime ¡ª fingerprint, cookies, storage, and proxy egress stay separate ¡ª with account warm-up, window sync, and local automation.
-
-**Free for individuals and enterprises** ¡ª no per-seat fee required to start.
 
 <p align="center">
   <img src="docs/assets/website-hero.png" width="920" alt="Cove Browser platform overview" />
@@ -164,7 +162,7 @@ Cove Browser turns every store or account into an isolated environment ¡ª finger
 | **Registration & warm-up** | Keep fingerprint and egress IP consistent through signup, review, and growth |
 | **Ads & reporting** | Separate Meta / Google / on-platform ad accounts; window sync for budgets and reports |
 | **Social & private-domain** | Isolate Facebook, Instagram, TikTok, YouTube, WhatsApp for parallel publishing and DMs |
-| **Agencies & business teams** | Group by client ¡Á store with roles; start free ¡ª no per-seat fee to begin |
+| **Agencies & business teams** | Group by client ¡Á store with roles; hand off without rebuilding fingerprints and proxies |
 | **Local automation** | Local API inside an environment; CDP after launch for repricing, scraping, listing |
 
 ---
@@ -173,8 +171,8 @@ Cove Browser turns every store or account into an isolated environment ¡ª finger
 
 | Step | Action |
 |:---:|---|
-| 1 | **Free download** from [covebrowser.com](https://covebrowser.com/) (Windows / macOS) |
-| 2 | Sign in with email (personal, team, or business) |
+| 1 | Download the client from [covebrowser.com](https://covebrowser.com/) (Windows / macOS) |
+| 2 | Sign in with email (personal or team) |
 | 3 | Create an environment (fingerprint, proxy, notes) |
 | 4 | Launch; enable the local API when you need automation |
 
@@ -182,7 +180,7 @@ Cove Browser turns every store or account into an isolated environment ¡ª finger
 
 <br/>
 
-**Get started** ¡ú [Download Cove Browser free](https://covebrowser.com/)
+**Get started** ¡ú [Download Cove Browser](https://covebrowser.com/)
 
 </div>
 
@@ -206,5 +204,5 @@ Cove Browser turns every store or account into an isolated environment ¡ª finger
 ---
 
 <div align="center">
-<sub>MIT License ¡¤ Free for individuals and businesses ¡¤ Installers from the website</sub>
+<sub>MIT License ¡¤ Installers from the website</sub>
 </div>
