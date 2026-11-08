@@ -50,6 +50,21 @@ Safer multi-store ops without account bleed
 Cove Browser is a **free fingerprint browser platform** for cross-border sellers, agencies, and ops teams.  
 For Amazon, Shopify, Shopee, TikTok Shop and more, each storefront becomes an isolated runtime ¡ª fingerprint, cookies, storage, and proxy egress stay separate ¡ª with account warm-up, window sync, and local automation to reduce store linking and team account bleed.
 
+### Why we built a free platform
+
+What sellers actually need is **store isolation, reliable browsers, and team collaboration**. Many commercial fingerprint browsers lock those basics behind expensive plans ¡ª billed by environments, seats, or windows. More stores and more teammates mean the bill scales up fast.
+
+What that usually looks like:
+
+| Reality | Cost |
+|---|---|
+| **Billed by environment / seat** | A few more stores or teammates and the monthly fee jumps |
+| **Features gated by plan** | Window sync, team roles, and API often sit in paid tiers |
+| **Tool cost outruns value** | Solo sellers and studios spend on the browser instead of ads and inventory |
+| **Risk remains** | Paying more still doesn¡¯t remove store linking, cookie bleed, or proxy mismatch |
+
+We built Cove Browser to make multi-account isolation a **free platform you can start with** ¡ª solve isolation and collaboration first, then put budget back into the business. Free client download from the website; sign up and go.
+
 <p align="center">
   <img src="docs/assets/website-hero.png" width="920" alt="Cove Browser platform overview" />
 </p>
@@ -147,8 +162,8 @@ Profiles present as **Chrome** (UA / Client Hints). Public third-party samples ¡
 
 ## Use cases
 
-Sellers and business teams worry about **linked stores** and **shared browsers causing account bleed**.  
-Cove Browser turns every store or account into an isolated environment ¡ª fingerprint, cookies, storage, and proxy egress stay separate.
+Teams worry about three things: **linked stores**, **shared browsers causing account bleed**, and **tool fees rising faster than margin**.  
+Cove Browser turns every store or account into an isolated environment ¡ª and ships that isolation as a free platform for sellers, agencies, and studios.
 
 <p align="center">
   <img src="docs/assets/scenario-stores.webp" width="420" alt="Multi-store isolation" />
@@ -156,14 +171,14 @@ Cove Browser turns every store or account into an isolated environment ¡ª finger
   <img src="docs/assets/scenario-social.webp" width="420" alt="Social matrix isolation" />
 </p>
 
-| Scenario | How teams use it |
-|---|---|
-| **Multi-marketplace ops** | Amazon, Shopify, eBay, Shopee, Lazada, Walmart, TikTok Shop ¡ª one store, one environment + regional proxy |
-| **Registration & warm-up** | Keep fingerprint and egress IP consistent through signup, review, and growth |
-| **Ads & reporting** | Separate Meta / Google / on-platform ad accounts; window sync for budgets and reports |
-| **Social & private-domain** | Isolate Facebook, Instagram, TikTok, YouTube, WhatsApp for parallel publishing and DMs |
-| **Agencies & business teams** | Group by client ¡Á store with roles; hand off without rebuilding fingerprints and proxies |
-| **Local automation** | Local API inside an environment; CDP after launch for repricing, scraping, listing |
+| Scenario | Pain point | How Cove helps |
+|---|---|---|
+| **Multi-marketplace ops** | Same-machine logins link stores; commercial tools charge per environment as you scale | One store, one environment + regional proxy; start on a free platform |
+| **Registration & warm-up** | Unstable device / IP profiles fail review and warm-up | Keep fingerprint and egress IP consistent from signup through growth |
+| **Ads & reporting** | Switching ad accounts wastes time; one shared browser risks bleed | Separate Meta / Google / on-platform accounts; window sync for budgets and reports |
+| **Social & private-domain** | Cookie bleed links matrix accounts | Isolate Facebook, Instagram, TikTok, YouTube, WhatsApp |
+| **Agencies & teams** | Seat fees stack; handoffs mean rebuilding fingerprints and proxies | Group by client ¡Á store with roles; shared environment library |
+| **Local automation** | Automation often sits behind another paid tier | Local API + CDP inside a chosen environment for repricing, scraping, listing |
 
 ---
 
