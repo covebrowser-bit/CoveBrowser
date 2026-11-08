@@ -8,6 +8,10 @@ Screenshots and images referenced by the root README.
 | `profiles.png` | Environment manager |
 | `fingerprint.png` | Fingerprint settings |
 | `launch.png` | Environment launch progress |
-| `detect-*.png/webp` | Public detection-site samples |
+| `detect-fingerprint-pro.png` | Fingerprint.com Playground |
+| `detect-browserscan.png` / `detect-browserscan-detail.png` | BrowserScan samples |
+| `detect-sannysoft.png` | bot.sannysoft.com / Intoli |
+| `detect-antibot.png` | ScrapingCourse Antibot Challenge |
+| `detect-human.png` | DeviceAndBrowserInfo human check |
 | `scenario-*.webp` | Use-case illustrations |
 | `logo.png` | Product mark |

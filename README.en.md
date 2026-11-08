@@ -49,21 +49,57 @@ Profiles present as **Chrome** (UA / Client Hints). Below are sample results fro
 
 | Detector | Focus | Notes |
 |---|---|---|
-| Fingerprint.com / similar | Canvas, WebGL, Audio, hardware consistency | Stable, reproducible profile fingerprint |
-| BrowserScan and similar | Browser identity, timezone, language, WebRTC | Scored as a normal Chrome profile, not an unknown browser |
-| Platform risk checks | Login / device signals | Self-check before store opening with region-matched proxy |
+| [Fingerprint.com](https://demo.fingerprint.com/) | Bot / VPN / tampering / VM smart signals | Bot, Browser Tampering, etc. Not detected |
+| [BrowserScan](https://www.browserscan.net/) | Browser identity, timezone, language, WebRTC, authenticity | Presents as Chrome; fingerprint authenticity at top tier |
+| [bot.sannysoft.com](https://bot.sannysoft.com/) | WebDriver, Chrome object, plugins, WebGL | Intoli-style checks mostly passed / ok |
+| [ScrapingCourse Antibot](https://www.scrapingcourse.com/antibot-challenge) | Antibot challenge | Challenge bypassed |
+| [DeviceAndBrowserInfo](https://deviceandbrowserinfo.com/) | isBot / WebDriver / Playwright / Headless | Are you a bot? ¡ú You are human |
+
+### Fingerprint.com
 
 <p align="center">
-  <img src="docs/assets/detect-fingerprint.webp" width="720" alt="Fingerprint sample" />
+  <img src="docs/assets/detect-fingerprint-pro.png" width="900" alt="Fingerprint.com sample" />
 </p>
 
-<p align="center"><em>Fingerprint-style sample: device and browser signals</em></p>
+<p align="center"><em>Fingerprint Playground: Bot / Tampering / VM signals not detected</em></p>
+
+### BrowserScan
 
 <p align="center">
-  <img src="docs/assets/detect-browserscan.png" width="720" alt="BrowserScan sample" />
+  <img src="docs/assets/detect-browserscan-detail.png" width="900" alt="BrowserScan authenticity" />
 </p>
 
-<p align="center"><em>BrowserScan-style sample: Chrome identity presentation</em></p>
+<p align="center"><em>BrowserScan: Browser fingerprint authenticity at top tier</em></p>
+
+<p align="center">
+  <img src="docs/assets/detect-browserscan.png" width="900" alt="BrowserScan overview" />
+</p>
+
+<p align="center"><em>BrowserScan overview: normal Chrome identity</em></p>
+
+### Sannysoft / Intoli
+
+<p align="center">
+  <img src="docs/assets/detect-sannysoft.png" width="720" alt="Sannysoft sample" />
+</p>
+
+<p align="center"><em>bot.sannysoft.com: WebDriver missing, Chrome present, and related checks</em></p>
+
+### Antibot Challenge
+
+<p align="center">
+  <img src="docs/assets/detect-antibot.png" width="720" alt="ScrapingCourse Antibot sample" />
+</p>
+
+<p align="center"><em>ScrapingCourse Antibot Challenge: bypassed</em></p>
+
+### Human / Bot Playground
+
+<p align="center">
+  <img src="docs/assets/detect-human.png" width="720" alt="DeviceAndBrowserInfo sample" />
+</p>
+
+<p align="center"><em>DeviceAndBrowserInfo: You are human (isBot / WebDriver / Headless false)</em></p>
 
 > Results vary by detector algorithms and local setup. Before go-live, retest with the target region proxy and the intended environment.
 

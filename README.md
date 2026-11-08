@@ -49,21 +49,57 @@
 
 | 检测站 | 关注点 | 说明 |
 |---|---|---|
-| Fingerprint.com / 同类指纹站 | Canvas、WebGL、Audio、硬件一致性 | 环境内指纹稳定、可复现 |
-| BrowserScan 等综合检测 | 浏览器身份、时区、语言、WebRTC 等 | 按常规 Chrome 画像评分，而非未知浏览器 |
-| 平台风控相关页面 | 登录态与设备画像 | 结合代理地区配置后用于开店、养号前自检 |
+| [Fingerprint.com](https://demo.fingerprint.com/) | Bot / VPN / 篡改 / 虚拟机等 Smart Signals | Bot、Browser Tampering 等为 Not detected |
+| [BrowserScan](https://www.browserscan.net/) | 浏览器身份、时区、语言、WebRTC、综合可信度 | 按 Chrome 画像呈现，指纹真实性评分可达满分档 |
+| [bot.sannysoft.com](https://bot.sannysoft.com/) | WebDriver、Chrome 对象、插件、WebGL | Intoli 系检测项多为 passed / ok |
+| [ScrapingCourse Antibot](https://www.scrapingcourse.com/antibot-challenge) | 综合 antibot 挑战 | 通过挑战页（You bypassed the Antibot challenge） |
+| [DeviceAndBrowserInfo](https://deviceandbrowserinfo.com/) | isBot / WebDriver / Playwright / Headless 等 | Are you a bot? → You are human |
+
+### Fingerprint.com
 
 <p align="center">
-  <img src="docs/assets/detect-fingerprint.webp" width="720" alt="Fingerprint 检测示例" />
+  <img src="docs/assets/detect-fingerprint-pro.png" width="900" alt="Fingerprint.com 检测示例" />
 </p>
 
-<p align="center"><em>Fingerprint 类检测示例：设备与浏览器指纹表现</em></p>
+<p align="center"><em>Fingerprint Playground：Bot / Tampering / VM 等信号未检出</em></p>
+
+### BrowserScan
 
 <p align="center">
-  <img src="docs/assets/detect-browserscan.png" width="720" alt="BrowserScan 检测示例" />
+  <img src="docs/assets/detect-browserscan-detail.png" width="900" alt="BrowserScan 指纹真实性" />
 </p>
 
-<p align="center"><em>BrowserScan 等综合检测示例：按 Chrome 身份呈现</em></p>
+<p align="center"><em>BrowserScan：Browser fingerprint authenticity 满分档示例</em></p>
+
+<p align="center">
+  <img src="docs/assets/detect-browserscan.png" width="900" alt="BrowserScan 综合检测" />
+</p>
+
+<p align="center"><em>BrowserScan 综合页：按常规 Chrome 身份呈现</em></p>
+
+### Sannysoft / Intoli
+
+<p align="center">
+  <img src="docs/assets/detect-sannysoft.png" width="720" alt="Sannysoft 检测示例" />
+</p>
+
+<p align="center"><em>bot.sannysoft.com：WebDriver missing、Chrome present 等项通过</em></p>
+
+### Antibot Challenge
+
+<p align="center">
+  <img src="docs/assets/detect-antibot.png" width="720" alt="ScrapingCourse Antibot 检测示例" />
+</p>
+
+<p align="center"><em>ScrapingCourse Antibot Challenge：挑战通过</em></p>
+
+### Human / Bot Playground
+
+<p align="center">
+  <img src="docs/assets/detect-human.png" width="720" alt="DeviceAndBrowserInfo 检测示例" />
+</p>
+
+<p align="center"><em>DeviceAndBrowserInfo：You are human（isBot / WebDriver / Headless 等为 false）</em></p>
 
 > 检测结果会随站点算法与本机配置变化；正式开店前建议用目标站点地区代理 + 对应环境再测一轮。
 
